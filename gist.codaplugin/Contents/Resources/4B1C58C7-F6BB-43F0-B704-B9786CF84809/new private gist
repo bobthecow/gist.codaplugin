@@ -2,4 +2,4 @@
 source /etc/profile
 source ~/.profile
 
-"$CODA_BUNDLE_SUPPORT/gist" -p | pbcopy
+"$CODA_BUNDLE_SUPPORT/gist" -p
