@@ -1,5 +1,5 @@
 #!/bin/bash
-source /etc/profile
-source ~/.profile
+[ -f /etc/profile ] && source /etc/profile
+[ -f ~/.profile ] && source ~/.profile
 
 "$CODA_BUNDLE_SUPPORT/gist"
